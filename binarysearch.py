@@ -2,12 +2,13 @@ def search (a, first: int, target:int):
 	"""_summary_
 
 	Args:
-		a (_type_): _description_
-		first (int): _description_
-		target (int): _description_
+		a (int): _descriptthe list to search
+		first (int): the list index at which the search will start
+		target (int): the element to search for
 
 	Returns:
-		_type_: _description_
+		int: if target appears in the list, index of the element
+		that contains target; else -1
 	"""
 	#set a boolean variable found to false
 	found = False
